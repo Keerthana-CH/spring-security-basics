@@ -10,6 +10,6 @@ public class ResourceEx {
 
     @GetMapping
     public String getWelcomePage(){
-        return "Welcome";
+        return ("<h1>Welcome</h1>");
     }
 }
